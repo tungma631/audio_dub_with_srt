@@ -1,0 +1,14 @@
+#bỏ qua các file video dung lượng lớn
+*.mp4
+*.mkv
+*.avi
+
+#bỏ quả thư mục chứa các file 
+temp_dubs/
+#bỏ qua các file cấu hình hệ điều hành (nếu có)
+.DS_Store
+Thumbs.db
+
+#bỏ qua các thư mục cache của python (nếu sau này có)
+__pycache__/
+*.pyc
